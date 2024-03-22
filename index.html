@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Page</title>
+    <link rel="stylesheet" href="cssfiles/mainpage.css">
+    <link rel="stylesheet" href="cssfiles/floatbutton.css">
+</head>
+<body>
+
+<div class="app-container">
+    <div class = 'app-header'>
+        <div class = 'up-left-icon'>
+            <span class="material-icons md-light">list</span>
+        </div>
+        <div class = 'up-right-icon'>
+            <span class="material-icons">
+                wifi
+            </span>
+        </div>
+    </div> 
+    
+    <div id="page1" class="app-page">
+        <h1>
+            DASHBOARD
+        </h1>
+    </div>
+
+    <div id="page2" class="app-page" style="display: none;">
+        <h1>
+            
+        </h1>
+    </div>
+    <div id="page3" class="app-page" style="display: none;">
+        <h1>
+            uoftGPT
+        </h1>
+        
+    </div>
+    <div id="page4" class="app-page" style="display: none;">Page 4 Content</div>
+
+    <div class="app-navbar">
+        <button class="nav-btn" data-target="page1">
+            <span class="material-icons">
+                dashboard
+            </span>
+         </button>
+        <button class="nav-btn" data-target="page2">Page 2</button>
+        <button class="nav-btn" data-target="page3">Page 3</button>
+        <button class="nav-btn" data-target="page4">Page 4</button>
+    </div>
+</div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
