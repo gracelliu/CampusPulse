@@ -7,11 +7,7 @@ body, html {
     justify-content: center;
     align-items: center;
     background-color: #e0e0e0; /* Light grey background */
-    font-family: Arial, sans-serif;
-}
-
-h1 {
-    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 table {
@@ -28,6 +24,19 @@ th, td {
 th {
     background-color: #f4f4f4;
 }
+
+
+.two-container-in-row{
+    display: flex; /* This enables flexbox layout for the container */
+    justify-content: space-between; /* This will space out the child elements evenly */
+    align-items: center; /* This will vertically align the elements in the middle of the container */
+    padding: 0px; /* Add some padding around the container */
+}
+
+.element {
+    padding: 0px; 
+}
+
 
 .material-icons.md-light {
      color: rgba(255, 255, 255, 1); 
@@ -47,7 +56,7 @@ th {
 
 .app-page {
     flex-grow: 1;
-    padding: 20px;
+    padding: 10px;
     overflow-y: auto;
 }
 

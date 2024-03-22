@@ -1,67 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Page</title>
     <link rel="stylesheet" href="cssfiles/mainpage.css">
     <link rel="stylesheet" href="cssfiles/header.css">
+    <link rel="stylesheet" href="cssfiles/button.css">
+    <link rel="stylesheet" href="cssfiles/image.css">
+    <link rel="stylesheet" href="cssfiles/imageicons.css">
 </head>
 <body>
 
-<p><a href="https://uoftgpt.auth.us-west-2.amazoncognito.com/login?client_id=54cq2jo3uae1ga8bliors4a8h7&response_type=code&scope=email+openid+phone&redirect_uri=http%3A%2F%2Flocalhost%3A8000%2Flogged_in.html">Register or Login</a></p>
 <div class="app-container">
-
     <h3>Welcome to my website</h3>
     
     <div class = 'app-header'>
         <div class = 'icons'>
             <div class = 'up-left-icon'>
-                <span class="material-icons md-light">list</span>
+                <span class="material-icons md-light">reorder</span>
             </div>
             <div class = 'image-icon'>
                 <img src="static/mainicon.png" alt="Descriptive Text" class="image-icon">
             </div>
             <div class = 'up-right-icon'>
-                <span class="material-icons md-light">wifi</span>
+                <span class="material-icons md-light">account_circle</span>
             </div>
         </div>
     </div> 
     
     <div id="page1" class="app-page">
-        <h1>
-            DASHBOARD
-        </h1>
+        <div class = "two-container-in-row">
+            <div class="element" id="element1">
+                <h1> Explore </h1>
+            </div>
+            <div class="element" id="element2">
+                <button_add_event id="openModalBtn">+</button_add_event>
+                <div id="myModal" class="modal">
+                    <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <button_typein id="toggleInputBtn">Add new events</button_typein>
+                        <div id="inputBar" class="hidden">
+                            <input type="text" id="userInput" placeholder="The event name...">
+                            <input type="text" id="userInput" placeholder="Brief desciption...">
+                            <input type="text" id="userInput" placeholder="Location...">
+                            <input type="text" id="userInput" placeholder="Time...">
+                            <input type="text" id="userInput" placeholder="Number of Student expected...">
+                            <input type="text" id="userInput" placeholder="Open to...">
+                            <input type="text" id="userInput" placeholder="Tags...">
+                            <button onclick="displayInput()">Submit</button>
+                        </div>
+                </div>
+                
+            </div>
+        </div>
+        <div class = "four-container-in-row">
+            <div class="element" id="element1">
+                <h1> Explore </h1>
+            </div>
+            <div class="element" id="element2">
+                
+            </div>
+
+        </div>
+    </div>
+        
+
     </div>
 
     <div id="page2" class="app-page" style="display: none;">
         <h1>
-            
+            <img src="static/map.png" alt="Descriptive Text" class="image_map">
         </h1>
     </div>
     <div id="page3" class="app-page" style="display: none;">
+        <img src="static/schedule.png" alt="Descriptive Text" class="image_schedule">
+    </div>
+    <div id="page4" class="app-page" style="display: none;">
         <h1>
             uoftGPT
         </h1>
-        
     </div>
-    <div id="page4" class="app-page" style="display: none;">Page 4 Content</div>
 
     <div class="app-navbar">
-        <button class="nav-btn" data-target="page1">
-            <span class="material-icons">
-                dashboard
-            </span>
-         </button>
-        <button class="nav-btn" data-target="page2">Page 2</button>
-        <button class="nav-btn" data-target="page3">Page 3</button>
-        <button class="nav-btn" data-target="page4">Page 4</button>
+        <button class="nav-btn" data-target="page1"><span class="material-icons">home</span></button>
+        <button class="nav-btn" data-target="page2"><span class="material-icons">map</span></button>
+        <button class="nav-btn" data-target="page3"><span class="material-icons">date_range</span></button>
+        <button class="nav-btn" data-target="page4"><span class="material-icons">question_answer</span></button>
     </div>
+
+    
 </div>
 
 
-    <script src="script.js"></script>
+
+
+<script src="script.js"></script>
 </body>
 </html>
 

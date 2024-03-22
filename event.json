@@ -70,7 +70,7 @@
     "num_students_expected": 150,
     "type_of_student_open_to": ["Undergrad"],
     "tags": ["Philosophy",
-"Research", "Colloquium"]
+            "Research", "Colloquium"]
 },
 {
 "event": "Tech for Good Hackathon",

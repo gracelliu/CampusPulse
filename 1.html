@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Floating Window Example</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .hidden {
+            display: none;
+        }
+
+        #floatingWindow {
+            position: fixed;
+            top: 20%;
+            left: 50%;
+            transform: translateX(-50%);
+            padding: 20px;
+            border: 2px solid #000;
+            background-color: #f9f9f9;
+            z-index: 1000;
+        }
+    </style>
+</head>
+<body>
+    <button id="openWindowBtn">Open Floating Window</button>
+    <div id="floatingWindow" class="hidden">
+        <p>This is a floating window.</p>
+        <button id="closeWindowBtn">Close</button>
+    </div>
+
+    <script>
+        document.getElementById('openWindowBtn').addEventListener('click', function() {
+            document.getElementById('floatingWindow').classList.remove('hidden');
+        });
+
+        document.getElementById('closeWindowBtn').addEventListener('click', function() {
+            document.getElementById('floatingWindow').classList.add('hidden');
+        });
+    </script>
+</body>
+</html>
