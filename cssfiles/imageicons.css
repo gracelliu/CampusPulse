@@ -1,59 +1,35 @@
-.four-container-in-row{
-    display: flex; /* This enables flexbox layout for the container */
-    justify-content: space-between; /* This will space out the child elements evenly */
-    align-items: center; /* This will vertically align the elements in the middle of the container */
-    padding: 0px; /* Add some padding around the container */
+
+h3{
+    padding: 0px;
 }
 
-.modal {
-    display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
-    left: 0;
-    top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    overflow: auto; /* Enable scroll if needed */
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
-  }
-  
-  .modal-content {
-    background-color: #fefefe;
-    margin: 15% auto; /* 15% from the top and centered */
-    padding: 20px;
-    border: 1px solid #888;
-    width: 20%; /* Could be more or less, depending on screen size */
-  }
-  
-  
-.close {
-    color: #aaaaaa;
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
-  }
-  
-  .close:hover,
-  .close:focus {
-    color: #000;
-    text-decoration: none;
-    cursor: pointer;
-  }
-  
-  tech_button {
-    padding: 3px 8px;
-    cursor: pointer;
-    background-color: #fffae7;
-    color: wite;
-    border-color: #2c1426;
-    border: 1px solid;
-    border-radius: 10px;
-    color: #2c1426;
-    font-size: 20px;
-    
-  }
-  
-  tech_button:hover {
-    background-color: #ed9959;
-  }
+.circles-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+}
+
+.circle {
+    border-radius: 50%;
+    margin-right: 15px;
+    width: 60px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #eee;
+    border: 1px solid #333;
+}
+
+
+.card {
+    border-radius: 10%;
+    margin-right: 20px;
+    width: 300px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #eee;
+    border: 1px solid #333;
+}

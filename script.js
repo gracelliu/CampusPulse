@@ -27,6 +27,12 @@ function setupNavigation() {
   });
 }
 
+document.querySelectorAll('.circle').forEach(circle => {
+  circle.addEventListener('click', function() {
+      alert('Circle ' + this.textContent + ' clicked!');
+  });
+});
+
 // Initialize the navigation once the DOM content is fully loaded
 document.addEventListener('DOMContentLoaded', function() {
   setupNavigation();
@@ -60,7 +66,6 @@ window.onclick = function(event) {
   }
 }
 
-
 document.getElementById('toggleInputBtn').addEventListener('click', function() {
     var inputBar = document.getElementById('inputBar');
     if (inputBar.classList.contains('hidden')) {
@@ -74,3 +79,10 @@ function displayInput() {
     var input = document.getElementById('userInput').value;
     document.getElementById('displayText').innerText = input;
 }
+
+
+document.querySelectorAll('.circle').forEach(circle => {
+    circle.addEventListener('click', function() {
+        alert('Circle ' + this.textContent + ' clicked!');
+    });
+});

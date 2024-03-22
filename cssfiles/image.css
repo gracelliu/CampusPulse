@@ -14,3 +14,11 @@
     display: block;
     object-fit: cover; /* Ensures the image is on its own line */
 }
+
+.image_chatbot {
+    width: 106%; /* Rough width of a phone */
+    height: 103%; /* Maintains the aspect ratio of the image */
+    display: block;
+    position:static;
+    /* Ensures the image is on its own line */
+}

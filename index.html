@@ -32,42 +32,82 @@
     </div> 
     
     <div id="page1" class="app-page">
-        <div class = "two-container-in-row">
-            <div class="element" id="element1">
-                <h1> Explore </h1>
-            </div>
-            <div class="element" id="element2">
-                <button_add_event id="openModalBtn">+</button_add_event>
-                <div id="myModal" class="modal">
-                    <div class="modal-content">
-                    <span class="close">&times;</span>
-                    <button_typein id="toggleInputBtn">Add new events</button_typein>
-                        <div id="inputBar" class="hidden">
-                            <input type="text" id="userInput" placeholder="The event name...">
-                            <input type="text" id="userInput" placeholder="Brief desciption...">
-                            <input type="text" id="userInput" placeholder="Location...">
-                            <input type="text" id="userInput" placeholder="Time...">
-                            <input type="text" id="userInput" placeholder="Number of Student expected...">
-                            <input type="text" id="userInput" placeholder="Open to...">
-                            <input type="text" id="userInput" placeholder="Tags...">
-                            <button onclick="displayInput()">Submit</button>
-                        </div>
+        <div class = 'column'>
+            <div class = "two-container-in-row">
+                <div class="element" id="element1">
+                    <h1> Explore </h1>
                 </div>
-                
+                <div class="element" id="element2">
+                    <button_add_event id="openModalBtn">+</button_add_event>
+                    <div id="myModal" class="modal">
+                        <div class="modal-content">
+                        <span class="close">&times;</span>
+                        <button_typein id="toggleInputBtn">Add new events</button_typein>
+                            <div id="inputBar" class="hidden">
+                                <input type="text" id="userInput" placeholder="The event name...">
+                                <input type="text" id="userInput" placeholder="Brief desciption...">
+                                <input type="text" id="userInput" placeholder="Location...">
+                                <input type="text" id="userInput" placeholder="Time...">
+                                <input type="text" id="userInput" placeholder="Number of Student expected...">
+                                <input type="text" id="userInput" placeholder="Open to...">
+                                <input type="text" id="userInput" placeholder="Tags...">
+                                <button onclick="displayInput()">Submit</button>
+                            </div>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class = "four-container-in-row">
-            <div class="element" id="element1">
-                <h1> Explore </h1>
-            </div>
-            <div class="element" id="element2">
-                
-            </div>
-
+        <div class="circles-container">
+            <div class="circle">Tech</div>
+            <div class="circle">Wellness</div>
+            <div class="circle">Career</div>
         </div>
-    </div>
+        <div class="circles-container">
+            <div class="circle">Health</div>
+            <div class="circle">Online</div>
+            <div class="circle">Workshp</div>
+        </div>
+        <h2>
+            Upcoming Events
+        </h2>
+        <div class="circles-container">
+            <div class="card">
+                <h3>
+                    hack the student life!
+                </h3>
+            </div>
+        </div>
+        <div class="circles-container">
+            <div class="card">
+                <h3>
+                    chess club tournament
+                </h3>
+            </div>
+        </div>
+        <div class="circles-container">
+            <div class="card">
+                <h3>
+                    Medical School Prep
+                </h3>
+            </div>
+        </div>
+        <div class="circles-container">
+            <div class="card">
+                <h3>
+                    Harthouse Free Lunch
+                </h3>
+            </div>
+        </div>
+        <div class="circles-container">
+            <div class="card">
+                <h3>
+                    Chatuoft 3.3 is coming!!
+                </h3>
+            </div>
+        </div>
         
-
+        
+    </div>
     </div>
 
     <div id="page2" class="app-page" style="display: none;">
@@ -79,16 +119,14 @@
         <img src="static/schedule.png" alt="Descriptive Text" class="image_schedule">
     </div>
     <div id="page4" class="app-page" style="display: none;">
-        <h1>
-            uoftGPT
-        </h1>
+        <img src="static/chatbot.png" alt="Descriptive Text" class="image_chatbot">
     </div>
 
     <div class="app-navbar">
-        <button class="nav-btn" data-target="page1"><span class="material-icons">home</span></button>
-        <button class="nav-btn" data-target="page2"><span class="material-icons">map</span></button>
-        <button class="nav-btn" data-target="page3"><span class="material-icons">date_range</span></button>
-        <button class="nav-btn" data-target="page4"><span class="material-icons">question_answer</span></button>
+        <button class="nav-btn" data-target="page1"><span class="material-icons md-light">home</span></button>
+        <button class="nav-btn" data-target="page2"><span class="material-icons md-light">map</span></button>
+        <button class="nav-btn" data-target="page3"><span class="material-icons md-light">date_range</span></button>
+        <button class="nav-btn" data-target="page4"><span class="material-icons md-light">question_answer</span></button>
     </div>
 
     

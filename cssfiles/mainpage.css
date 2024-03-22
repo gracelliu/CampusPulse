@@ -8,6 +8,7 @@ body, html {
     align-items: center;
     background-color: #e0e0e0; /* Light grey background */
     font-family: 'Ubuntu', sans-serif;
+    flex-direction: column;
 }
 
 table {
@@ -28,15 +29,37 @@ th {
 
 .two-container-in-row{
     display: flex; /* This enables flexbox layout for the container */
-    justify-content: space-between; /* This will space out the child elements evenly */
+    justify-content: 20px; /* This will space out the child elements evenly */
     align-items: center; /* This will vertically align the elements in the middle of the container */
     padding: 0px; /* Add some padding around the container */
+    
+}
+
+
+.column{
+    display: flex;
+    flex-direction: column; /* Aligns children elements in a column */
+    justify-content: flex-start; /* Aligns items to the start of the container */
+    align-items: stretch; /* Stretches items to fill the container width */
+    min-height: 100vh; /* Minimum height of 100% of the viewport height */
+    padding: 20px;
+}
+
+.section {
+    margin-bottom: 20px; /* Adds space between sections */
 }
 
 .element {
     padding: 0px; 
+    margin-right: 180px;
+    margin-left: 0px;
 }
 
+.elemen{
+    padding: 0px; 
+    margin-right: 30px;
+    margin-left: 0px;
+}
 
 .material-icons.md-light {
      color: rgba(255, 255, 255, 1); 
@@ -71,7 +94,7 @@ th {
 .app-navbar {
     display: flex;
     justify-content: space-around;
-    background-color: #f7f7f7; /* Slightly off-white, common for phone UIs */
+    background-color: #2c1426; /* Slightly off-white, common for phone UIs */
     box-shadow: 0 -2px 5px rgba(0,0,0,0.1);
     border-top: 1px solid #ddd; /* A subtle top border for the nav */
 }
