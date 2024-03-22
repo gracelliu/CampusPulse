@@ -9,6 +9,7 @@ For student users, Campus Pulse has four main interfaces, each with its unique f
 * The interactive map allows the student to visualize the activities going on around campus, where they can easily find the date and time for each event.
 * The intelligent calendar optimizes the student's schedule, integrating course timetables and informing the students of the activities occurring during their free time.
 * The conversational AI chatbot engages with the student, either verbally or via text, and provides personalized recommendations and answer any inquiries.
+
 For club administrators, Campus Pulse has an additional feature to upload events through inputting the time, location and other details.
 
 The backend is built using various Amazon Web Services. AWS Cognito is used for user authentication, with two user groups available, students and club administrators. AWS Transcribe and Translate are used to enable real-time verbal inputs for students. AWS Sage Maker, S3, Hugging Face, Langchain, LLAMA2, and RAG prompting are used for AI chatbot with event database. The frontend is built using HTML, Javascript, NextJS and tailwind CSS with visuals made using Figma.
