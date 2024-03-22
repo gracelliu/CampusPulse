@@ -1,0 +1,32 @@
+chat/models/ggml-model-Q4_K_M.gguf
+# Ignore node_modules directory for JavaScript projects
+node_modules/
+
+# Ignore any built files for JavaScript projects
+/build/
+/dist/
+/out/
+
+# Ignore virtual environment for Python projects
+venv/
+ENV/
+
+# Ignore compiled Python bytecode
+*.pyc
+__pycache__/
+
+# Ignore local development settings
+*.env
+
+# Ignore package-lock.json for npm projects
+package-lock.json
+
+# Ignore any logs or temporary files
+*.log
+*.tmp
+
+# Ignore any IDE or editor specific files
+.vscode/
+.idea/
+*.iml
+*.DS_Store

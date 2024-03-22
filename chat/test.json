@@ -1,0 +1,101 @@
+[
+    {
+    "event": "Hack Student Life",
+    "description": "A dynamic and innovative hackathon tailored exclusively for UofT students, aiming to revolutionize student life through technology. Participants will collaborate in teams to design and develop solutions that enhance the university experience. The event includes mentorship from industry experts, insightful workshops, and a competition with prizes.",
+    "location": "18 York Street",
+    "time": "2024-03-22T09:00:00-04:00",
+    "num_students_expected": 300,
+    "type_of_student_open_to": ["Undergrad", "Grad"],
+    "tags": ["Hackathon", "Innovation", "Technology", "Student Life"]
+},
+  {
+    "event": "AI & Machine Learning Symposium",
+    "description": "An annual gathering showcasing cutting-edge AI and machine learning research by UofT's brightest. Features keynote speeches, workshops, and poster sessions.",
+    "location": "Bahen Centre for Information Technology, St. George Campus",
+    "time": "2024-03-15T09:00:00-04:00",
+    "num_students_expected": 500,
+    "type_of_student_open_to": ["Undergrad", "Grad", "PhD"],
+    "tags": ["Machine Learning", "AI", "Technology", "Research"]
+  },
+  {
+    "event": "Engineering Frosh Week",
+    "description": "A week-long orientation for new engineering students to get acquainted with UofT's engineering culture, including team-building activities, tours, and social events.",
+    "location": "Sandford Fleming Building, St. George Campus",
+    "time": "2024-09-04T10:00:00-04:00",
+    "num_students_expected": 1000,
+    "type_of_student_open_to": ["Undergrad", "Engineering Only"],
+    "tags": ["Social", "Engineering", "Orientation"]
+  },
+  {
+    "event": "Interdisciplinary Biohackathon",
+    "description": "A 48-hour hackathon that brings together students from biology, computer science, and engineering to solve pressing bioinformatics challenges.",
+    "location": "Leslie Dan Faculty of Pharmacy, St. George Campus",
+    "time": "2024-11-11T18:00:00-05:00",
+    "num_students_expected": 300,
+    "type_of_student_open_to": ["Undergrad", "Grad", "PhD"],
+    "tags": ["Bioinformatics", "Hackathon", "Interdisciplinary"]
+  },
+  {
+    "event": "Graduate Physics Seminar Series",
+    "description": "Monthly seminars featuring discussions on the latest discoveries in physics, presented by UofT's graduate students and esteemed guest speakers.",
+    "location": "McLennan Physical Laboratories, St. George Campus",
+    "time": "2024-02-20T15:00:00-05:00",
+    "num_students_expected": 200,
+    "type_of_student_open_to": ["Grad", "PhD"],
+    "tags": ["Physics", "Research", "Seminar"]
+  },
+  {
+    "event": "Startup Career Fair",
+    "description": "Connects students with innovative startups from Toronto's vibrant tech ecosystem, offering internship and job opportunities in various tech fields.",
+    "location": "Hart House, St. George Campus",
+    "time": "2024-01-25T10:00:00-05:00",
+    "num_students_expected": 800,
+    "type_of_student_open_to": ["Undergrad", "Grad", "Engineering Only"],
+    "tags": ["Career", "Startup", "Technology"]
+  },
+  {
+    "event": "Sustainability in Engineering Conference",
+    "description": "A conference dedicated to sustainable engineering practices, featuring industry leaders, panel discussions, and workshops on green technologies.",
+    "location": "Myhal Centre for Engineering Innovation & Entrepreneurship, St. George Campus",
+    "time": "2024-04-22T09:00:00-04:00",
+    "num_students_expected": 400,
+    "type_of_student_open_to": ["Undergrad", "Grad", "PhD", "Engineering Only"],
+    "tags": ["Sustainability", "Engineering", "Conference"]
+  },
+  {
+    "event": "Annual Psychology Undergrad Research Expo",
+    "description": "Showcases undergraduate research projects in psychology, offering students a platform to present their findings and network with faculty.",
+    "location": "Sidney Smith Hall, St. George Campus",
+    "time": "2024-03-29T12:00:00-04:00",
+    "num_students_expected": 250,
+    "type_of_student_open_to": ["Undergrad"],
+    "tags": ["Psychology", "Research", "Social Science"]
+  },
+  {
+    "event": "Multicultural Night",
+    "description": "A celebration of UofT's diverse student body with cultural performances, cuisine from around the world, and interactive cultural booths.",
+    "location": "Multi-Faith Centre, St. George Campus",
+    "time": "2024-02-10T17:00:00-05:00",
+    "num_students_expected": 600,
+    "type_of_student_open_to": ["Undergrad", "Grad", "PhD"],
+    "tags": ["Social", "Cultural", "Food"]
+  },
+  {
+    "event": "Quantum Computing Workshop",
+    "description": "An intensive workshop on quantum computing basics, quantum algorithms, and hands-on sessions with quantum simulators, designed for students with a background in computer science and physics interested in quantum technologies.",
+"location": "Fields Institute for Research in Mathematical Sciences, St. George Campus",
+"time": "2024-05-15T09:00:00-04:00",
+"num_students_expected": 150,
+"type_of_student_open_to": ["Undergrad", "Grad", "PhD"],
+"tags": ["Quantum Computing", "Workshop", "Technology", "Physics"]
+},
+{
+"event": "Game Development Hackathon",
+"description": "A 36-hour game jam where students can form teams to design and develop a game. The event includes mentoring sessions, game design workshops, and a competition with prizes.",
+"location": "Goldring Student Centre, St. George Campus",
+"time": "2024-10-06T10:00:00-04:00",
+"num_students_expected": 200,
+"type_of_student_open_to": ["Undergrad", "Grad"],
+"tags": ["Game Development", "Hackathon", "Social", "Technology"]
+}
+]
