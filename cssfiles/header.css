@@ -1,0 +1,52 @@
+.app-header {
+    top: 3000;
+    border-top-left-radius: 35px;
+    border-top-right-radius: 35px;
+    height: 60px;
+    background-color: #2c1426;
+    position: absolute;
+    width: 25.4%;
+    z-index: 2;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.icons {
+    margin-top: 1.5%;
+    display: grid;
+    grid-template-columns: auto auto auto; /* Creates two columns */
+}
+
+.up-left-icon {
+    padding: 10px;
+    margin-left: 8%;
+    
+    flex-grow: 1;
+    text-align: left;
+    background: none;
+    border: none;
+    font-size: 30px;
+}
+.up-left-icon:focus {
+    outline: none;
+}
+
+.up-right-icon {
+    padding: 10px;
+    margin-right: 8%;
+    flex-grow: 1;
+    text-align: right;
+    background: none;
+    border: none;
+    font-size: 30px;
+}
+.up-right-icon:focus {
+    outline: none;
+}
+
+.image-icon {
+    width: 45px; /* Adjust the width as needed */
+    height: 45px; /* Maintains the aspect ratio of the image */
+    display: block; /* Ensures the image is on its own line */
+    margin: 0 auto; /* Centers the image horizontally if the container allows */
+    margin-top: 1%;
+}

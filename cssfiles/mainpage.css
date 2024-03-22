@@ -12,7 +12,6 @@ body, html {
 
 h1 {
     text-align: center;
-    margin-top: 10%;
 }
 
 table {
@@ -30,6 +29,9 @@ th {
     background-color: #f4f4f4;
 }
 
+.material-icons.md-light {
+     color: rgba(255, 255, 255, 1); 
+}
 
 .app-container {
     width: 384px; /* Rough width of a phone */
@@ -57,19 +59,6 @@ th {
     position: relative;
 }
 
-.app-header {
-    top: 3000;
-    border-top-left-radius: 35px;
-    border-top-right-radius: 35px;
-    height: 40px;
-    background-color: #2c1426;
-    position: absolute;
-    width: 25.4%;
-    z-index: 2;
-    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-}
-
-
 .app-navbar {
     display: flex;
     justify-content: space-around;
@@ -94,33 +83,4 @@ th {
 
 .nav-btn:active {
     background-color: #ed9959;
-}
-
-
-.up-left-icon {
-    padding: 10px;
-    margin-left: 5%;
-    flex-grow: 1;
-    text-align: left;
-    background: none;
-    border: none;
-    font-size: 10px;
-    color: #333;
-}
-.up-left-icon:focus {
-    outline: none;
-}
-
-.up-right-icon {
-    padding: 10px;
-    margin-left: 5%;
-    flex-grow: 1;
-    text-align: right;
-    background: none;
-    border: none;
-    font-size: 10px;
-    color: #333;
-}
-.up-right-icon:focus {
-    outline: none;
 }
